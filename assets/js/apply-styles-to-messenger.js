@@ -6,10 +6,10 @@ $(document).ready(function () {
 
     style.textContent = `
     div.chat-wrapper[opened="true"] {
-        width: calc(100% - 40px);
+        width: calc(100% - 30%);
         height: calc(100vh - 155px);
-        right: 20px;
-        left: 20px;
+        right: 15%;
+        left: 15%;
     }`;
     $r2.shadowRoot.appendChild(style);
   });
