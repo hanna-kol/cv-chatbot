@@ -1,7 +1,29 @@
-<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
-  intent="WELCOME"
-  chat-title="Resume assistant"
-  agent-id="ea47795b-d109-4bf7-9354-aba943253a9a"
-  language-code="en"
-></df-messenger>
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Resume assistant</title>
+    <meta name="description" content="Hanna resume assistant" />
+
+    <link rel="stylesheet" href="./assets/css/chatbot-style.css" />
+  </head>
+
+  <body>
+    <div class="chatbot-container">
+      <df-messenger
+        intent="WELCOME"
+        chat-title="Resume assistant"
+        agent-id="ea47795b-d109-4bf7-9354-aba943253a9a"
+        language-code="en"
+        expand="true"
+      ></df-messenger>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <script src="./assets/js/apply-styles-to-messenger.js"></script>
+  </body>
+</html>
